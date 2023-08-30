@@ -1,0 +1,30 @@
+{
+  "name": "google-map-server",
+  "version": "1.0.0",
+  "description": "google-map-backend-server",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev:server": "nodemon index.js"
+  },
+  "keywords": [
+    "google",
+    "map",
+    "server"
+  ],
+  "author": "ashraf",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.0",
+    "config": "^3.3.9",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "redis": "^4.6.7"
+  }
+}
