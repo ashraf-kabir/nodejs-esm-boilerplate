@@ -12,9 +12,9 @@ node-es6-boilerplate/
 │   │   └── TestService.js
 │   ├── app.js
 │   └── server.js
-|__ .env.dist
+├── .env.dist
 ├── .gitignore
-|__ initialize.sh
+├── initialize.sh
 ├── package.json
 └── README.md
 ```
