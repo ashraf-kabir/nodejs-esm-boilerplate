@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
-import { getAll } from './services/EmployeeService.js';
+import { getAll } from './services/TestService.js';
 
 dotenv.config();
 
@@ -41,7 +41,7 @@ app.get('/', async (req, res) => {
   }
 });
 
-app.get('/v1/api/employees', async (req, res) => {
+app.get('/v1/api/test', async (req, res) => {
   try {
     const result = await getAll(req);
     res.status(200).json(result);

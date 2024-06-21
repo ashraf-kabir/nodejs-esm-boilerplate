@@ -1,19 +1,15 @@
 {
-  "name": "google-map-server",
+  "name": "nodejs-es6-server",
   "version": "1.0.0",
-  "description": "google-map-backend-server",
+  "description": "nodejs-es6-server",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "dev:server": "nodemon index.js"
+    "start": "node src/index",
+    "dev": "nodemon src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "google",
-    "map",
-    "server"
-  ],
+  "keywords": [],
   "author": "ashraf",
   "license": "MIT",
   "dependencies": {
