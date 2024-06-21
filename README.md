@@ -24,3 +24,5 @@ node-es6-boilerplate/
 2. Run `./initialize.sh` to install dependencies and create `.env` file
 3. start the dev server using `npm run dev`
 4. Visit `http://localhost:5000` to see the server running
+
+### Raise a star if you like the boilerplate
