@@ -1,4 +1,4 @@
-# nodejs-es6-boilerplate
+# nodejs-esm-boilerplate
 
 ## Directory Structure
 ```
