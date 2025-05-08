@@ -2,7 +2,7 @@
 
 ## Directory Structure
 ```
-node-es6-boilerplate/
+node-esm-boilerplate/
 ├── src/
 │   ├── config/
 │   │   └── index.js
